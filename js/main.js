@@ -196,7 +196,7 @@ class Weather {
         }
         if(this.currentWeatherStatus == 'Clear'){
             this.currentIcon = this.#weatherIcons[2].sun;
-            this.body.style.backgroundImage = 'url(../img/clear.jpg)';
+            this.body.style.backgroundImage = 'url(img/clear.jpg)';
         }
         if(this.currentWeatherStatus == 'Clouds'){
             this.currentIcon = this.#weatherIcons[4].cloud;
