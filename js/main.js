@@ -188,11 +188,11 @@ class Weather {
         
         if(this.currentWeatherStatus == 'Rain'){
             this.currentIcon = this.#weatherIcons[0].rain;
-            this.body.style.backgroundImage = 'url(../img/rain.jpg)';
+            this.body.style.backgroundImage = 'url(img/rain.jpg)';
         }
         if(this.currentWeatherStatus == 'Thunderstorm'){
             this.currentIcon = this.#weatherIcons[1].storm;
-            this.body.style.backgroundImage = 'url(../img/storm.jpg)';
+            this.body.style.backgroundImage = 'url(img/storm.jpg)';
         }
         if(this.currentWeatherStatus == 'Clear'){
             this.currentIcon = this.#weatherIcons[2].sun;
@@ -200,15 +200,15 @@ class Weather {
         }
         if(this.currentWeatherStatus == 'Clouds'){
             this.currentIcon = this.#weatherIcons[4].cloud;
-            this.body.style.backgroundImage = 'url(../img/back4.jpg)';
+            this.body.style.backgroundImage = 'url(img/back4.jpg)';
         }
         if(this.currentWeatherStatus == 'Fog'){
             this.currentIcon = this.#weatherIcons[5].fog;
-            this.body.style.backgroundImage = 'url(../img/fog.jpg)';
+            this.body.style.backgroundImage = 'url(img/fog.jpg)';
         }
         if(this.currentWeatherStatus == 'Snow'){
             this.currentIcon = this.#weatherIcons[6].snow;
-            this.body.style.backgroundImage = 'url(../img/snow.jpg)';
+            this.body.style.backgroundImage = 'url(img/snow.jpg)';
         }
         this.renderWeatherInfo();
      }
