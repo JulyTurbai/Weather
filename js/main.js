@@ -19,7 +19,7 @@ class Weather {
         {snow: 'snow.png'},
     ];
     constructor() {
-        this.api = 'http://api.openweathermap.org/data/2.5/weather?q=Poltava&units=metric&APPID=b03a2cfad336d11bd9140ffd92074504';
+        this.api = 'https://api.openweathermap.org/data/2.5/weather?q=Poltava&units=metric&APPID=b03a2cfad336d11bd9140ffd92074504';
         this.json = null;
         this.currentIcon = null;
         this.currentTemp = null;
@@ -132,7 +132,7 @@ class Weather {
             this.wrapper.querySelector('.weather-choose').classList.toggle('fog');  
         }
         if(t === 'Київ') {
-            this.api = 'http://api.openweathermap.org/data/2.5/weather?q=Kiev&units=metric&APPID=b03a2cfad336d11bd9140ffd92074504';
+            this.api = 'https://api.openweathermap.org/data/2.5/weather?q=Kiev&units=metric&APPID=b03a2cfad336d11bd9140ffd92074504';
             this.renderWeatherInfo();
             this.renderChooseCity();
             this.city = 'Київ';
@@ -141,7 +141,7 @@ class Weather {
             this.getDate();
         }
         if(t === 'Полтава') {
-            this.api = 'http://api.openweathermap.org/data/2.5/weather?q=Poltava&units=metric&APPID=b03a2cfad336d11bd9140ffd92074504';
+            this.api = 'https://api.openweathermap.org/data/2.5/weather?q=Poltava&units=metric&APPID=b03a2cfad336d11bd9140ffd92074504';
             this.renderWeatherInfo();
             this.renderChooseCity();
             this.city = 'Полтава';
@@ -150,7 +150,7 @@ class Weather {
             this.getDate();
         }
         if(t === 'Кременчук') {
-            this.api = 'http://api.openweathermap.org/data/2.5/weather?q=Kremenchuk&units=metric&APPID=b03a2cfad336d11bd9140ffd92074504';
+            this.api = 'https://api.openweathermap.org/data/2.5/weather?q=Kremenchuk&units=metric&APPID=b03a2cfad336d11bd9140ffd92074504';
             this.renderWeatherInfo();
             this.renderChooseCity();
             this.city = 'Кременчук';
@@ -159,7 +159,7 @@ class Weather {
             this.getDate();
         }
         if(t === 'Дніпро') {
-            this.api = 'http://api.openweathermap.org/data/2.5/weather?q=Dnipro&units=metric&APPID=b03a2cfad336d11bd9140ffd92074504';
+            this.api = 'https://api.openweathermap.org/data/2.5/weather?q=Dnipro&units=metric&APPID=b03a2cfad336d11bd9140ffd92074504';
             this.renderWeatherInfo();
             this.renderChooseCity();
             this.city = 'Дніпро';
@@ -168,7 +168,7 @@ class Weather {
             this.getDate();
         }
         if(t === 'Львів') {
-            this.api = 'http://api.openweathermap.org/data/2.5/weather?q=Lviv&units=metric&APPID=b03a2cfad336d11bd9140ffd92074504';
+            this.api = 'https://api.openweathermap.org/data/2.5/weather?q=Lviv&units=metric&APPID=b03a2cfad336d11bd9140ffd92074504';
             this.renderWeatherInfo();
             this.renderChooseCity();
             this.city = 'Львів';
