@@ -64,6 +64,7 @@ img {
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .weather-info_temp {
     display: flex;
@@ -90,6 +91,7 @@ img {
 }
 .weather-add_item {
     display: flex;
+    align-items: center;
     margin-right: 50px;
 }
 .weather-add_item:last-child {
@@ -144,4 +146,211 @@ img {
 
 .fog {
     display: block;
+}
+
+@media(max-width: 970px) {
+    .weather-window {
+        width: 750px;
+    }
+}
+@media(max-width: 830px) {
+    .weather {
+        padding-top: 70px;
+    }
+    .weather-window {
+        width: 670px;
+    }
+}
+@media(max-width: 740px) {
+    .weather {
+        padding-top: 30px;
+    }
+    .weather-window {
+        width: 530px;
+    }
+    .weather-info_temp {
+        font-size: 35px;
+    }
+    .weather-info_pic {
+        width: 50px;
+        height: 50px;
+    }
+    .weather-add img {
+        width: 30px;
+        margin-right: 4px;
+    }
+    .weather-choose {
+        width: 112px;
+        top: 49px;
+        right: 19px;
+        
+    }
+}
+@media(max-width: 700px) {
+    .weather {
+        padding-top: 30px;
+    }
+    .weather-window {
+        width: 420px;
+        color: black;
+        margin: 0px auto;
+    }
+    .weather-main_date {
+        font-size: 16px;
+    }
+    .weather-main_location {
+        padding: 0px;
+        font-size: 16px;
+    }
+    .weather-choose {
+        width: 90px;
+        top: 49px;
+        right: 15px;
+        font-size: 12px;
+    }
+    .weather-info_icon {
+        width: 37px;
+    }
+    .weather-info_temp {
+        font-size: 28px;
+        margin-right: 15px;
+    }
+    .weather-info_pic {
+        width: 40px;
+        height: 40px;
+    }
+    .weather-add  {
+        font-size: 11px;
+    }
+    .weather-add img {
+        width: 25px;
+        margin-right: 4px;
+        font-size: 11px;
+        margin-left: 10px;
+    }
+    .weather-status {
+        margin-top: 10px;
+    }
+    .weather-add_item {
+        margin-right: 30px;
+    }
+}
+
+@media(max-width: 630px) {
+    body {
+        background-size: 130%;
+    }
+    .weather {
+        padding-top: 30px;
+    }
+    .weather-window {
+        width: 420px;
+        color: black;
+        margin: 0px auto;
+    }
+    .weather-main_date {
+        font-size: 16px;
+    }
+}
+@media(max-width: 490px) {
+    body {
+        background-size: 200%;
+    }
+    .weather {
+        padding-top: 30px;
+    }
+    .weather-window {
+        width: 350px;
+        height: 400px;
+        color: black;
+        margin: 0px auto;
+    }
+    .weather-choose {
+        width: 350px;
+        justify-content: center;
+        align-items: center;
+        top: 40px;
+        right: 0;
+        min-height: 40px;
+    }
+    .weather-info {
+        width: 900px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .weather-status {
+        height: 42px;
+    }
+    .weather-main_date {
+        font-size: 16px;
+    }
+    .weather-add {
+        font-size: 10px;
+    }
+    .weather-add_item {
+        margin-right: 0px;
+    }
+    .weather-add img {
+        width: 20px;
+    }
+}
+
+@media(max-width: 390px) {
+    body {
+        background-size: 220%;
+    }
+    .weather {
+        padding-top: 20px;
+    }
+    img {
+        width: 9%;
+    }
+    .weather-window {
+        width: 270px;
+        height: 360px;
+        color: black;
+        margin: 0px auto;
+    }
+    .weather-info_temp {
+        font-size: 25px;
+    }
+    .weather-info_icon {
+        width: 30px;
+    }
+    .weather-choose {
+        width: 270px;
+        justify-content: center;
+        align-items: center;
+        top: 40px;
+        right: 0;
+        min-height: 40px;
+    }
+    .weather-choose_city {
+        margin-right: 12px;
+    }
+    .weather-info {
+        width: 900px;
+        height: 20px;
+        margin-top: 50px;
+    }
+    .weather-status {
+        height: 42px;
+    }
+    .weather-main_date {
+        font-size: 16px;
+    }
+    .weather-add {
+        display: flex;
+        flex-wrap: wrap;
+        width: 270px;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .weather-add_item {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .weather-add img {
+        width: 20px;
+    }
 }
